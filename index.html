@@ -1,0 +1,138 @@
+---
+title: "liting-shu-index"
+format: html
+---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李婷</title>
+    <!-- 引入 Bootstrap 5 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c5f2d; /* 深绿色 */
+            --secondary-color: #97bc62; /* 浅绿色 */
+        }
+        body {
+            background-color: #f8f9fa;
+            line-height: 1.8;
+        }
+        .navbar {
+            background-color: var(--primary-color)!important;
+        }
+        .section-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .award-badge {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">李婷 | 土壤微生物研究</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">个人简介</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#essays">个人笔谈</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">联系方式</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主体内容 -->
+    <div class="container py-5">
+        <!-- 个人简介 -->
+        <section id="about" class="section-card">
+            <h2 class="mb-4">👩🔬 个人简介</h2>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3 class="text-success">关于我</h3>
+                    <p>李婷，来自云南，华中农业大学在读研究生，主攻土壤微生物固碳方向。</p>
+                </div>
+
+                <div class="col-md-8">
+                    <h3 class="text-success">🎓 教育经历</h3>
+                    <ul>
+                        <li>研究生 | 华中农业大学农业资源与环境专业 (2022-至今)</li>
+                        <li>本科 | 华中农业大学农业资源与环境专业 (2018-2022)</li>
+                    </ul>
+
+                    <h3 class="text-success mt-4">🏆 获得奖励</h3>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="award-badge">第二届全国农业资源与环境专业竞赛特等奖</span>
+                        <span class="award-badge">2022年华中农业大学专业竞赛一等奖</span>
+                    </div>
+
+                    <h3 class="text-success mt-4">🔬 实习经历</h3>
+                    <p>武汉市农业科学院环境与安全研究所 (2023.06-2023.12)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 个人笔谈 -->
+        <section id="essays" class="section-card">
+            <h2 class="mb-4">📚 个人笔谈</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">影视评价</h5>
+                            <p class="card-text">科学纪录片与农业题材影视作品分析...</p>
+                            <a href="blog1.html" class="btn btn-outline-success">阅读全文</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">小说读后感</h5>
+                            <p class="card-text">生态文学与农业主题小说解析...</p>
+                            <a href="blog2.html" class="btn btn-outline-success">阅读全文</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系方式 -->
+        <section id="contact" class="section-card">
+            <h2 class="mb-4">📬 联系方式</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><strong>电话:</strong> <a href="tel:1528864852">152-8864-852</a></li>
+                        <li><strong>邮箱:</strong> <a href="mailto:2160772384@qq.com">2160772384@qq.com</a></li>
+                    </ul>
+                </div>
+                </div>  <!-- 闭合 col-md-6 -->
+</div>  <!-- 闭合 row -->
+</section>  <!-- 闭合 section#contact -->
+
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
